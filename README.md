@@ -66,11 +66,11 @@ The dataset contains 10,000 transactions with the following columns:
 <img width="1323" height="414" alt="image" src="https://github.com/user-attachments/assets/c9f8a774-12ff-4a09-945b-67b934e24374" />
 
 - There are high revenues during January, May, June, August, and November. Revenues drop significantly from mid July to the beginning of August and from the end of September to mid-October. This shows a significant seasonal impact
-- Overall, Sales remain relatively consistent over time.
+- Overall, sales remain generally stable, with noticeable seasonal fluctuations during specific periods.
 
 <img width="756" height="659" alt="image" src="https://github.com/user-attachments/assets/12b146c8-ea49-4691-8d09-dd1a3f58674f" />
 
-- Takeaway orders contribute the majority of revenue, indicating a dislike for In-store dining.
+- Takeaway orders contribute the majority of revenue, suggesting a stronger demand for takeaway services compared to in-store dining.
 
 <img width="741" height="680" alt="image" src="https://github.com/user-attachments/assets/283cee0d-244b-4753-b434-b6977637853a" />
 <img width="753" height="690" alt="image" src="https://github.com/user-attachments/assets/cb591105-f9a3-4573-a100-b736138ba4a9" />
@@ -93,3 +93,10 @@ The analysis provides insights into product performance, sales trends, and custo
 - Update the menu during low-revenue seasons to minimize the revenue drops.
 - Expand digital payment options due to high usage
 - Improve the interior of the store to attract more In-Store customers.
+
+---
+
+## Limitations
+
+- Some missing values were imputed using statistical methods, which may introduce minor bias
+- Removed date entries (~4.6%) may slightly affect time-based analysis
