@@ -2,7 +2,7 @@
 
 ## Overview
 This project focuses on cleaning and analyzing a messy coffee shop transaction dataset. 
-The goal was to transform inconsistent raw data into a reliable dataset and get meaningful business insights.
+The goal was to transform inconsistent, messy data into a reliable dataset and get impactful business insights.
 
 ---
 
@@ -57,15 +57,35 @@ The dataset contains 10,000 transactions with the following columns:
 ---
 
 ## Key Insights
-- Sandwich is the most sold item by quantity
-- Sandwich generates the highest overall revenue
-- Sales remain relatively consistent over time
-- Takeaway orders contribute the majority of revenue
-- Digital Wallet is the most frequently used payment method
+<img width="742" height="653" alt="image" src="https://github.com/user-attachments/assets/17f5aeff-c64b-472b-9ef5-1594501b4c82" />
+<img width="742" height="656" alt="image" src="https://github.com/user-attachments/assets/dd557bef-546c-4cd0-87ef-9f0745448c92" />
+- Sandwich dominates both quantity and revenue, indicating strong demand and pricing advantage.
 - Items, Salad, and Smoothie generate higher revenue despite lower sales volume, indicating pricing impact
+  
+<img width="1323" height="414" alt="image" src="https://github.com/user-attachments/assets/c9f8a774-12ff-4a09-945b-67b934e24374" />
+- There are high revenues during January, May, June, August, and November. Revenues drop significantly from mid July to the beginning of August and from the end of September to mid-October. This shows a significant seasonal impact
+- Overall, Sales remain relatively consistent over time.
+
+<img width="756" height="659" alt="image" src="https://github.com/user-attachments/assets/12b146c8-ea49-4691-8d09-dd1a3f58674f" />
+- Takeaway orders contribute the majority of revenue, indicating a dislike for In-store dining.
+
+<img width="741" height="680" alt="image" src="https://github.com/user-attachments/assets/283cee0d-244b-4753-b434-b6977637853a" />
+<img width="753" height="690" alt="image" src="https://github.com/user-attachments/assets/cb591105-f9a3-4573-a100-b736138ba4a9" />
+- Digital Wallet is the most frequently used payment method, indicating a preference for online transactions. 
 
 ---
 
 ## Conclusion
 The dataset was successfully cleaned and validated to ensure reliability. 
-The analysis provides insights into product performance, sales trends, and customer behavioral patterns. This can be used to manage products, optimize sales, and improve customer service. 
+The analysis provides insights into product performance, sales trends, and customer behavioral patterns. This can be used to manage products, optimize sales, and improve customer service.
+
+---
+
+## Recommendations
+
+- Increase inventory for high-performing items like the Sandwich
+- Introduce more sandwich options
+- Promote underperforming items to improve sales balance
+- Update the menu during low-revenue seasons to minimize the revenue drops.
+- Expand digital payment options due to high usage
+- Improve the interior of the store to attract more In-Store customers.
